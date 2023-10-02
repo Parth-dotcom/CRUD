@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body
+        {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            bg-color:red;
+        }
+        h1, h2
+        {
+            color: #333;
+        }
+        table
+        {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        table, th, td
+        {
+            border: 1px solid #ddd;
+        }
+        th, td
+        {
+            padding: 10px;
+            text-align: left;
+        }
+        th
+        {
+            background-color: #f2f2f2;
+        }
+        form
+        {
+            margin-top: 20px;
+        }
+        label
+        {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, button
+        {
+            margin-bottom: 10px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student CRUD</title>
+</head>
+<body>
+    <h1>Student List</h1>
+    <h2>Add New Student</h2>
+    <a href="{{ url_for('add_student') }}">Add Student</a>
+</body>
+</html>
